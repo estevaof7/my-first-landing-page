@@ -1,6 +1,5 @@
 .intro-content {
     position: relative;
-    /* top: -8rem; */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -161,8 +160,17 @@
 }
 
 @media (max-width: 800px) {
+    h2 {
+        font-size: 4.7rem;
+    }
     .intro-content, .grid {
         grid-template-columns: 1fr;
+    }
+    .grid h3::before {
+        left: 0;
+    }
+    .grid h3 {
+        padding-left: 7rem;
     }
     .gallery-img {
         width: 100%;
