@@ -166,6 +166,9 @@
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
+    #contact .intro-img {
+        display: none;
+    }
     .grid h3::before {
         left: 0;
     }
